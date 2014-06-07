@@ -320,41 +320,41 @@
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="56ab2528b63efdf71c471041f8186204a8e76967" upstream="refs/heads/cm-10.2"/>
   <project name="CyanogenMod/ion" path="external/koush/ion" revision="7068c3aba9a4dc3d5b99602de47ad1eb7913a2d8" upstream="refs/heads/cm-10.2"/>
   <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="41213072541dad37eed7192967c252362cd3bf14" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android" path="android" revision="d9932bafa9d8b0aafe0d762d3bfc0dc88faf4168" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_bionic" path="bionic" revision="2efc34c12cf77cab7c4533e55baae01d1ff49603" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_build" path="build" revision="7920c12c38d800bb218629ee29d59bca2db89be9" upstream="refs/heads/cm-10.2">
+  <project name="herrothere/android" path="android" revision="d9932bafa9d8b0aafe0d762d3bfc0dc88faf4168" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_bionic" path="bionic" revision="2efc34c12cf77cab7c4533e55baae01d1ff49603" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_build" path="build" revision="7920c12c38d800bb218629ee29d59bca2db89be9" upstream="refs/heads/cm-10.2">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="androidarmv6/android_dalvik" path="dalvik" revision="1f0e82ab52a71e1a67cff4f76c8f792c7ee1daf8" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_device_ldpi-common" path="device/ldpi-common" revision="1000043e697297d031a5b43df1cbf03d77ba5d30" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_device_mdpi-common" path="device/mdpi-common" revision="695c615f2e84de41b8b9365aad36af87420bcfc5" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_external_libncurses" path="external/libncurses" revision="ba5bff319d8265b587c9619b4e1949f5d90e9a74" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_external_llvm" path="external/llvm" revision="ebdc1531b14f27533d664bfcac05f3e276490e02" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_external_skia" path="external/skia" revision="72aac66aff909538665c0ffdb05b48c64e5c9d42" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_external_webkit" path="external/webkit" revision="289219ef65b6cc01c41d444a7ec307ebbdae8e4b" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="325cd46022bcba7bb6c4ec1646d2f35ef7952e28" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_frameworks_av" path="frameworks/av" revision="3dcd5e759f0a2f4e5b6c04e872739a7a9125a85f" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_frameworks_base" path="frameworks/base" revision="ae7ba922d6c5e6c5358cc548bb897ef8a5e3c811" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="c4dc717965e02adca05559beca158dc3d6ee0b64" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_frameworks_compile_slang" path="frameworks/compile/slang" revision="ed8a77e7968acbf279985744b5cedd0ff468d3d3" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_frameworks_native" path="frameworks/native" revision="357ced8ef4dcd249421a9c7ad0e1225b8e0c4ffc" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_frameworks_rs" path="frameworks/rs" revision="9836afae1dc443d8359f03048b4d2a7febe142a7" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="e3167c611b0fd79de1b17a7c5010cbe1cdad43fb" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_hardware_msm7k" path="hardware/msm7k" revision="eb40af177e7c96b0bdfb24d3eb59f6636171a537" upstream="refs/heads/cm-10.2"/>
-  <project groups="qcom" name="androidarmv6/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="7193f0b457b730a2eb74205af0d19e84d0f262a2" upstream="refs/heads/cm-10.2"/>
-  <project groups="qcom" name="androidarmv6/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="86251021984055c27a7e1daebdc38660e5cef4b4" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_hardware_qcom_media_legacy" path="hardware/qcom/media_legacy" revision="016fed5955614cda0937b0ef98220acb7d7a5a3e" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_apps_Effem" path="packages/apps/Effem" revision="dd889a177a9445abf4618439c00aeeb2f6285c3a" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_apps_HwaSettings" path="packages/apps/HwaSettings" revision="de37e822f688bd6d0955cd820cd1c985c40329b6" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_apps_Settings" path="packages/apps/Settings" revision="e796e82d8df3b2066623415a1a9545a97ae564e7" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="33239022e8793db2fd5af27a9977fd2fb169881b" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="f755a10611d8e9c71b24ea54e653222fe0758b53" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" revision="e1d8b1fbfc6bd144d814d57cbe3850a32be1d6ca" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_system_bluetooth" path="system/bluetooth" revision="e43e95e015205d60fe78622500d55209ff085519" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_system_core" path="system/core" revision="4df28507f1c1360f60ed92d9a37f4c497d7003dc" upstream="refs/heads/cm-10.2"/>
-  <project groups="pdk" name="androidarmv6/android_system_netd" path="system/netd" revision="e4016bb1ac11a473b836fe84eb5b56a6eff2a594" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_vendor_cm" path="vendor/cm" revision="d25abec3a0888f303c1e9c1e63ec0864df489b1f" upstream="refs/heads/cm-10.2"/>
-  <project name="androidarmv6/android_vendor_google" path="vendor/google" revision="036b896f74c485d9f4ea87dc913e373145e6e599" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_dalvik" path="dalvik" revision="1f0e82ab52a71e1a67cff4f76c8f792c7ee1daf8" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_device_ldpi-common" path="device/ldpi-common" revision="1000043e697297d031a5b43df1cbf03d77ba5d30" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_device_mdpi-common" path="device/mdpi-common" revision="695c615f2e84de41b8b9365aad36af87420bcfc5" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_external_libncurses" path="external/libncurses" revision="ba5bff319d8265b587c9619b4e1949f5d90e9a74" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_external_llvm" path="external/llvm" revision="ebdc1531b14f27533d664bfcac05f3e276490e02" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_external_skia" path="external/skia" revision="72aac66aff909538665c0ffdb05b48c64e5c9d42" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_external_webkit" path="external/webkit" revision="289219ef65b6cc01c41d444a7ec307ebbdae8e4b" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="325cd46022bcba7bb6c4ec1646d2f35ef7952e28" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_frameworks_av" path="frameworks/av" revision="3dcd5e759f0a2f4e5b6c04e872739a7a9125a85f" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_frameworks_base" path="frameworks/base" revision="ae7ba922d6c5e6c5358cc548bb897ef8a5e3c811" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="c4dc717965e02adca05559beca158dc3d6ee0b64" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_frameworks_compile_slang" path="frameworks/compile/slang" revision="ed8a77e7968acbf279985744b5cedd0ff468d3d3" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_frameworks_native" path="frameworks/native" revision="357ced8ef4dcd249421a9c7ad0e1225b8e0c4ffc" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_frameworks_rs" path="frameworks/rs" revision="9836afae1dc443d8359f03048b4d2a7febe142a7" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="e3167c611b0fd79de1b17a7c5010cbe1cdad43fb" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_hardware_msm7k" path="hardware/msm7k" revision="eb40af177e7c96b0bdfb24d3eb59f6636171a537" upstream="refs/heads/cm-10.2"/>
+  <project groups="qcom" name="herrothere/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="7193f0b457b730a2eb74205af0d19e84d0f262a2" upstream="refs/heads/cm-10.2"/>
+  <project groups="qcom" name="herrothere/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="86251021984055c27a7e1daebdc38660e5cef4b4" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_hardware_qcom_media_legacy" path="hardware/qcom/media_legacy" revision="016fed5955614cda0937b0ef98220acb7d7a5a3e" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_apps_Effem" path="packages/apps/Effem" revision="dd889a177a9445abf4618439c00aeeb2f6285c3a" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_apps_HwaSettings" path="packages/apps/HwaSettings" revision="de37e822f688bd6d0955cd820cd1c985c40329b6" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_apps_Settings" path="packages/apps/Settings" revision="e796e82d8df3b2066623415a1a9545a97ae564e7" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="33239022e8793db2fd5af27a9977fd2fb169881b" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="f755a10611d8e9c71b24ea54e653222fe0758b53" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" revision="e1d8b1fbfc6bd144d814d57cbe3850a32be1d6ca" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_system_bluetooth" path="system/bluetooth" revision="e43e95e015205d60fe78622500d55209ff085519" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_system_core" path="system/core" revision="4df28507f1c1360f60ed92d9a37f4c497d7003dc" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="herrothere/android_system_netd" path="system/netd" revision="e4016bb1ac11a473b836fe84eb5b56a6eff2a594" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_vendor_cm" path="vendor/cm" revision="d25abec3a0888f303c1e9c1e63ec0864df489b1f" upstream="refs/heads/cm-10.2"/>
+  <project name="herrothere/android_vendor_google" path="vendor/google" revision="036b896f74c485d9f4ea87dc913e373145e6e599" upstream="refs/heads/cm-10.2"/>
   <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" remote="aosp" revision="40683ac280c46bdff5680feaa65352a0384e8218" upstream="refs/tags/android-4.3.1_r1"/>
   <project groups="pdk" name="device/generic/mini-emulator-mips" remote="aosp" revision="0eeb3d30bd915c5f2f457792af4455c49db93666" upstream="refs/tags/android-4.3.1_r1"/>
   <project groups="pdk" name="device/generic/mini-emulator-x86" remote="aosp" revision="e695166a6b77112d57f2d4a865aa2ec68f7b3f9d" upstream="refs/tags/android-4.3.1_r1"/>
