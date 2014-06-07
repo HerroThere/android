@@ -423,4 +423,96 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+   <project name="androidarmv6/android" path="android" revision="d9932bafa9d8b0aafe0d762d3bfc0dc88faf4168" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_bionic" path="bionic" revision="2efc34c12cf77cab7c4533e55baae01d1ff49603" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_build" path="build" revision="7920c12c38d800bb218629ee29d59bca2db89be9" upstream="refs/heads/cm-10.2">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project name="androidarmv6/android_dalvik" path="dalvik" revision="1f0e82ab52a71e1a67cff4f76c8f792c7ee1daf8" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_device_ldpi-common" path="device/ldpi-common" revision="1000043e697297d031a5b43df1cbf03d77ba5d30" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_device_mdpi-common" path="device/mdpi-common" revision="695c615f2e84de41b8b9365aad36af87420bcfc5" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_external_libncurses" path="external/libncurses" revision="ba5bff319d8265b587c9619b4e1949f5d90e9a74" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_external_llvm" path="external/llvm" revision="ebdc1531b14f27533d664bfcac05f3e276490e02" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_external_skia" path="external/skia" revision="72aac66aff909538665c0ffdb05b48c64e5c9d42" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_external_webkit" path="external/webkit" revision="289219ef65b6cc01c41d444a7ec307ebbdae8e4b" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="325cd46022bcba7bb6c4ec1646d2f35ef7952e28" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_frameworks_av" path="frameworks/av" revision="3dcd5e759f0a2f4e5b6c04e872739a7a9125a85f" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_frameworks_base" path="frameworks/base" revision="ae7ba922d6c5e6c5358cc548bb897ef8a5e3c811" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="c4dc717965e02adca05559beca158dc3d6ee0b64" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_frameworks_compile_slang" path="frameworks/compile/slang" revision="ed8a77e7968acbf279985744b5cedd0ff468d3d3" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_frameworks_native" path="frameworks/native" revision="357ced8ef4dcd249421a9c7ad0e1225b8e0c4ffc" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_frameworks_rs" path="frameworks/rs" revision="9836afae1dc443d8359f03048b4d2a7febe142a7" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="e3167c611b0fd79de1b17a7c5010cbe1cdad43fb" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_hardware_msm7k" path="hardware/msm7k" revision="eb40af177e7c96b0bdfb24d3eb59f6636171a537" upstream="refs/heads/cm-10.2"/>
+  <project groups="qcom" name="androidarmv6/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="7193f0b457b730a2eb74205af0d19e84d0f262a2" upstream="refs/heads/cm-10.2"/>
+  <project groups="qcom" name="androidarmv6/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="86251021984055c27a7e1daebdc38660e5cef4b4" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_hardware_qcom_media_legacy" path="hardware/qcom/media_legacy" revision="016fed5955614cda0937b0ef98220acb7d7a5a3e" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_apps_Effem" path="packages/apps/Effem" revision="dd889a177a9445abf4618439c00aeeb2f6285c3a" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_apps_HwaSettings" path="packages/apps/HwaSettings" revision="de37e822f688bd6d0955cd820cd1c985c40329b6" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_apps_Settings" path="packages/apps/Settings" revision="e796e82d8df3b2066623415a1a9545a97ae564e7" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="33239022e8793db2fd5af27a9977fd2fb169881b" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="f755a10611d8e9c71b24ea54e653222fe0758b53" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" revision="e1d8b1fbfc6bd144d814d57cbe3850a32be1d6ca" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_system_bluetooth" path="system/bluetooth" revision="e43e95e015205d60fe78622500d55209ff085519" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_system_core" path="system/core" revision="4df28507f1c1360f60ed92d9a37f4c497d7003dc" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="androidarmv6/android_system_netd" path="system/netd" revision="e4016bb1ac11a473b836fe84eb5b56a6eff2a594" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_vendor_cm" path="vendor/cm" revision="d25abec3a0888f303c1e9c1e63ec0864df489b1f" upstream="refs/heads/cm-10.2"/>
+  <project name="androidarmv6/android_vendor_google" path="vendor/google" revision="036b896f74c485d9f4ea87dc913e373145e6e599" upstream="refs/heads/cm-10.2"/>
+  <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" remote="aosp" revision="40683ac280c46bdff5680feaa65352a0384e8218" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="device/generic/mini-emulator-mips" remote="aosp" revision="0eeb3d30bd915c5f2f457792af4455c49db93666" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="device/generic/mini-emulator-x86" remote="aosp" revision="e695166a6b77112d57f2d4a865aa2ec68f7b3f9d" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="cts" name="platform/cts" path="cts" remote="aosp" revision="5fe6cba683c97702e383c52d1fdf4ab77ddfc29d" upstream="jb-mr2.0-cts-release"/>
+  <project name="platform/developers/build" path="developers/build" remote="aosp" revision="2b1169e2095f5e30f118abd146a62007697cecc3" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/developers/demos" path="developers/demos" remote="aosp" revision="a7254542b06878f0c3b34a6c3d91b9e7d3990f74" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/developers/docs" path="developers/docs" remote="aosp" revision="c0b835ddd9acc27176dc9a0f7d1aa2faf5d51806" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="e83a81e160331583c4235f8129f7c781f87bd704" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/docs/source.android.com" path="docs/source.android.com" remote="aosp" revision="15c58c4c9f1d117b285bd6b350cd94baee4a88c2" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/ceres-solver" path="external/ceres-solver" remote="aosp" revision="0ae28bd5885b5daa526898fcf7c323dc2c3e1963" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="aosp" revision="7025601d0815f37c67f879b82ae8878347f37fbc" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/marisa-trie" path="external/marisa-trie" remote="aosp" revision="629ed059b1e85cd8e4de363d8b3dc53c15c3e08a" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/mockito" path="external/mockito" remote="aosp" revision="34f80a94e45f7110ec3444c1d0ecfacc194d009a" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/nist-pkits" path="external/nist-pkits" remote="aosp" revision="15558fa207bb1692564c17e7e9756cdb4e0ad56c" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/noto-fonts" path="external/noto-fonts" remote="aosp" revision="8dc3200465d4d2e25b6125bf4083783379255375" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/objenesis" path="external/objenesis" remote="aosp" revision="e8740d2e04179cd15a85dd055cac90b5aeb52589" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/open-vcdiff" path="external/open-vcdiff" remote="aosp" revision="6d29f2f083baf8250db94ed0b4807e513a84163d" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/robolectric" path="external/robolectric" remote="aosp" revision="4252a662f88e0d13829e106831d66b3f28c9cb70" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/smack" path="external/smack" remote="aosp" revision="d7955ce24d294fb2014c59d11fca184471056f44" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/external/timezonepicker-support" path="external/timezonepicker-support" remote="aosp" revision="99e91a76fd74bad10266623d67cdb98d011f709e" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/hardware/akm" path="hardware/akm" remote="aosp" revision="6f701daf0b67ef38f1ba1700984ec78134669cd0" upstream="refs/tags/android-4.3_r2.1"/>
+  <project name="platform/ndk" path="ndk" remote="aosp" revision="52d203309fcbb666cb98c5a74bbdba6615c980ea" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/pdk" path="pdk" remote="aosp" revision="17c9966aeb7dd3bd472e7e9bc70735dee1fc72c8" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" remote="aosp" revision="426233405bef3c7c825095ab14256c3773894b9b" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" remote="aosp" revision="af856d77b3cbb1f6afccdc531bee991403c28907" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" remote="aosp" revision="e95b4ce22c825da44d14299e1190ea39a5260bde" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" remote="aosp" revision="471afab478649078ad7c75ec6b252481a59e19b8" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="aosp" revision="42f8ef3570f43414858a974ddd593ac13ab02163" upstream="refs/tags/android-4.3.1_r1"/>
+  <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" revision="76f99d69c6843137da55d1a28c81920ac453ec15" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" revision="26cb1865482ce3d9dd47ff5766180f3e7ade98ec" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="132d19ae8012c883920b44fbf9cfddcbc272b41c" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="96cab4347b944dc6ee36a4ed40a5b8fa2fe4a9ba" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers" remote="aosp" revision="4ac4f7cc41cf3c9e36fc3d6cf37fd1cfa9587a68" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" remote="aosp" revision="21ae5b0545fb8db1b13c95ecd4c42545a39e2922" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="837cdd9b3ac7231daaf961056c7505843130f667" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" remote="aosp" revision="59ba91ee388518529644c33f5df50050e41d2051" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="042d6130038c95be86fcea5dddda2db07bd5aa27" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" remote="aosp" revision="b8d6b5d787751a78c0a1d38f209037a933b2371b" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="aosp" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="3d37334606f36c1639a1caf928994c56b360eeb1" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="aosp" revision="f59b0b330652def9439f594eb647be98b314d579" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="10191e2f442c5409cb70783508658d474612a97e" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="95bb5b66b3ec5769c3de8d3f25d681787418e7d2" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="90fc0bd53f2d07ef2383bfad53671f76801c740e" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" remote="aosp" revision="54c0e28f018240eb8951fb4fdb680e652bebd0cf" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="c7931763d41be602407ed9d71e2c0292c6597e00" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" revision="b0ddf9b51594fd0457bca1666373c40544669f1e" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="30ee84f92cb832c789366c516fcadb718ccc25e8" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="ec4a882d411d0d4ceadc5912ab4ce6fd4df23ab7" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="3c1c4d0ec5801bc9210036b45bca37baec1a290d" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="31ec211efafde89ab39472d7bd040f00d1b71945" upstream="refs/tags/android-4.3.1_r1"/>
+  <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" remote="aosp" revision="5b54b0e25a4b55fa6a180d225f8f1790fb63287b" upstream="refs/tags/android-4.3.1_r1"/>
+</manifest>
 </manifest>
